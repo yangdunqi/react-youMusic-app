@@ -1,0 +1,36 @@
+.ant-page-header-compact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 72px;
+    background-color: #ff4b00;
+    color: #fff;
+    padding: 0 24px;
+    font-weight: bold;
+}
+.ant-page-header-compact .ant-page-header-heading-title {
+    font-size: 20px;
+    color: white;
+}
+.ant-page-header-compact .ant-btn {
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    color: #ff4b00;
+    font-weight: bold;
+}
+/* 路由导航 */
+.navbar {
+    display: flex;
+    line-height: 60px;
+}
+.navbar a {
+    flex: 1;
+    text-align: center;
+    font-weight: 700;
+    color: #666;
+}
+.navbar a.active {
+    border-bottom: 2px solid #ff4b00;
+}
